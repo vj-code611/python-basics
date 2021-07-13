@@ -20,7 +20,9 @@ print(myDict)
 myDict["city"] = "Bengaluru"
 print(myDict)
 
-#deleting a key value
+
+print("-----------------------")
+print("--->deleting a key value")
 
 #1.
 del myDict["age"]
@@ -62,8 +64,6 @@ except:
 
 
 print("-----------------------")
-
-
 print("\nitems():")
 for i,j in myDict.items():
 	print(i ,"-->", j )
